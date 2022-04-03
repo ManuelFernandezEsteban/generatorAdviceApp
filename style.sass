@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;800&display=swap')
+
+$grayish-blue :hsl(217, 19%, 38%)
+$dark-grayish-blue : hsl(217, 19%, 24%)
+$dark-blue: hsl(218, 23%, 16%)
+$light-cyan: hsl(193, 38%, 86%)
+$neon-green: hsl(150, 100%, 66%)
+
+$font-size:1.5rem
+$font-family:'Manrope'
+
+body
+    margin: 0px
+    padding: 0px
+    display: flex
+    flex-direction: column
+
+.wrapper    
+    font-family: $font-family
+    width: 100%
+    height: 100vh
+    background-color: $dark-blue
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    .advice
+        width: 340px
+        height: auto
+        background-color: $dark-grayish-blue
+        border-radius: 10px
+        position: relative
+        flex-direction: column        
+        text-align: center
+        .separator
+            width: 80%
+            margin-bottom: 50px
+            
+        h6
+            color: $neon-green
+            text-align: center
+            text-transform: uppercase
+            font-weight: 200
+            letter-spacing: 0.2rem
+        p
+            color: $light-cyan
+            font-weight: bolder
+            font-size: $font-size
+            padding: 10px
+            
+.boton
+    border: none
+    background-color: $neon-green
+    width: 50px
+    height: 50px
+    border-radius: 50px
+    position: absolute
+    bottom: -9%
+    left: 43%
+    cursor: pointer
+    &:hover
+        box-shadow: 0px 0px 20px 0px $neon-green 
+    .icon
+        width: 25px
+        height: 25px
+    
+   
