@@ -27,14 +27,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot/Screenshot-desktopAdvice-generator-app.png.jpg)
-![](./screenshot/Screenshot-mobileAdvice-generator-app.png.jpg)
+![](./screenshot/Screenshot-desktopAdvice-generator-app.png)
+![](./screenshot/Screenshot-mobileAdvice-generator-app.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Git hub](https://github.com/ManuelFernandezEsteban/generatorAdviceApp.git)
+- Live Site URL: [Add live site URL here](https://manuelfernandezesteban.github.io/generatorAdviceApp/)
 
 ## My process
 
